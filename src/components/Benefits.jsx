@@ -1,6 +1,11 @@
+import { benefits} from "../constants";
 import Heading from "./Heading";
 import Section from "./Section";
-import { benefits} from "../constants";
+import Arrow from "../assets/svg/Arrow";
+
+import { GradientLight } from "./design/Benefits";
+
+import ClipPath from "../assets/svg/ClipPath";
 
 const Benefits = () => {
   return (
@@ -20,15 +25,41 @@ const Benefits = () => {
               }}
               key={item.id}
             > 
-              <div className="flex flex-col items-center text-center">
-                <img 
-                  src={item.iconUrl} 
-                  alt={item.title}
-                  className="w-12 h-12 mb-4" 
-                />
-                <h5 className="mb-2 text-lg font-bold">{item.title}</h5>
-                <p className="text-sm">{item.text}</p>
+              <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none">
+                <h5 className="mb-5 h5">{item.title}</h5>
+                <p className="mb-6 body-2 text-n-3">{item.text}</p>
+                <div className="flex items-center mt-auto">
+                  <img 
+                    src={item.iconUrl}
+                    width={48}
+                    height={48}
+                    alt={item.title} 
+                  />
+                  <p className="ml-auto text-xs font-bold tracking-wider uppercase font-code text-n-1">
+                    Explore more
+                  </p>
+                  <Arrow />
+                </div>
               </div>
+
+              {item.light && <GradientLight />}
+
+              <div 
+                className="absolute inset-0.5 bg-n-8"
+                style={{ clipPath: "url(#benefits)" }}
+              >
+                <div className="absolute inset-0 transition-opacity opacity-0 hover:opacity-10">
+                  <img 
+                    src={item.imageUrl}
+                    width={380}
+                    height={362}
+                    alt={item.title}
+                    className="object-cover w-full h-full" 
+                  />
+                </div>
+              </div>
+
+              <ClipPath />
             </div>
           ))}
         </div>
