@@ -1,3 +1,36 @@
+### 
+
+# :robot: Meals Application
+
+### _ai-Brainwave , React + Vite !!_
+
+### Link :link: [https://rak-meals.netlify.app/](https://rak-ai-brainwave.netlify.app/)
+
+## Interface
+<img src="aiBrainWave.png" />
+
+## Run Locally
+
+  - Run This command `https://github.com/developer-rak/ai_brainwave.git`
+  - You are now in the dev environment and you can play around
+
+## ✨ Features
+
+  - FEATURES
+  - PRICING
+  - HOW TO USE
+  - ROADMAP
+
+  - NEW ACCOUNT
+  - SIGNUP
+
+## ⚙️ Tech Stack
+  - React + Vite
+  - TailwindCss
+  - Netlify
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
