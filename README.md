@@ -1,10 +1,10 @@
 ### 
 
-# :robot: Meals Application
+# :robot: AI-Brainwave
 
 ### _ai-Brainwave , React + Vite !!_
 
-### Link :link: [https://rak-meals.netlify.app/](https://rak-ai-brainwave.netlify.app/)
+### Link :link: [https://ai-brainwave.netlify.app/](https://rak-ai-brainwave.netlify.app/)
 
 ## Interface
 <img src="aiBrainWave.png" />
