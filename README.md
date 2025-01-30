@@ -1,6 +1,6 @@
 ### 
 
-# :robot: Meals Application
+# :robot: AI-Brainwave
 
 ### _ai-Brainwave , React + Vite !!_
 
